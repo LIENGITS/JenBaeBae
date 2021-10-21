@@ -1,7 +1,7 @@
 $('#login-button').click(function (event) {
     let userName = document.getElementById("userName").value;
     let pwd = document.getElementById("pwd").value;
-    if (userName == "1023" && pwd == "1023") {
+    if (userName == "晓晓" && pwd == "1023") {
         $('#h').text("~欢迎回来你的网站~");
         event.preventDefault();
         $('form').fadeOut(500);
